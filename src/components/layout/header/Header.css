@@ -1,0 +1,59 @@
+.topheader {
+    padding-left: 20px;
+    background-color: #c9d1d7; /* Updated background color */
+    color: white; /* Updated text color */
+  }
+  
+  .displayButton {
+    position: relative;
+  }
+  
+  .displayButton button {
+    color: rgb(57, 189, 191); /* Updated text color */
+    padding: 12px;
+    border-radius: 8px; /* Adjusted border radius */
+    border-color: #d6dee4; /* Updated border color */
+    background-color: #fff; /* Updated background color */
+  }
+  
+  .selectGroup {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dropOnClick {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 280px; /* Adjusted width */
+    background-color: #528992; /* Updated background color */
+    border-radius: 15px; /* Adjusted border radius */
+    margin-top: 15px;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .dropOnClick>* {
+    width: 100%;
+  }
+  
+  .btn {
+    background: #f0f0f0; /* Updated background color */
+    border: 1px solid #ccc; /* Updated border color */
+    border-radius: 12px; /* Adjusted border radius */
+  }
+  
+  .selectStyle {
+    width: 120px; /* Adjusted width */
+    border-radius: 8px; /* Adjusted border radius */
+    background: #fff; /* Updated background color */
+    padding: 5px 10px; /* Adjusted padding */
+    border: 1px solid #ccc; /* Updated border color */
+    color: #333; /* Updated text color */
+  }
+  
+  /* Add any additional styling as needed */
+  

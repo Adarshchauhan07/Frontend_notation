@@ -1,0 +1,64 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid #ccc; /* Default border color */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+    background: #f0f8ff; /* AliceBlue background color */
+    height: 200px;
+    overflow: auto;
+    justify-content: space-between;
+  }
+  
+  .cardHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .userId {
+    font-weight: bold;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .showStatus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .cardTitle {
+    font-weight: 600;
+    color: #483d8b; /* DarkSlateBlue text color */
+  }
+  
+  .cardTags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tags {
+    color: #556b2f; /* DarkOliveGreen tag color */
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  

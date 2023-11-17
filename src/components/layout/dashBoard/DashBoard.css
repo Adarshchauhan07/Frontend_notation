@@ -1,0 +1,59 @@
+.dashContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #f0f0f0;
+  padding: 20px;
+  justify-content: center;
+}
+
+.dashCardContainer-deadpool {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.5);
+}
+
+.dashCardHeading-deadpool {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftView-deadpool {
+  display: flex;
+  align-items: center;
+}
+
+.userImage-deadpool {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.rightView-deadpool {
+  display: flex;
+  align-items: center;
+}
+
+.loadingSpinner-deadpool {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.dashList-deadpool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Add any additional styling as needed */
